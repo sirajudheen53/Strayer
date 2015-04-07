@@ -109,6 +109,12 @@
     return _managedObjectContext;
 }
 
++ (AppDelegate *)application
+{
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
+
 #pragma mark - Core Data Saving support
 
 - (void)saveContext {
