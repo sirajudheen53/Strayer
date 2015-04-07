@@ -91,6 +91,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CEC52D411AD3CAA4003BF968 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEFA45261AD287F40096839B /* HomeViewController.h */,
+				CEFA45271AD287F40096839B /* HomeViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		CEFA45101AD287F40096839B = {
 			isa = PBXGroup;
 			children = (
@@ -114,11 +123,10 @@
 		CEFA451B1AD287F40096839B /* Strayer */ = {
 			isa = PBXGroup;
 			children = (
+				CEC52D411AD3CAA4003BF968 /* ViewControllers */,
 				CEFA45451AD2AD420096839B /* Webservice */,
 				CEFA45201AD287F40096839B /* AppDelegate.h */,
 				CEFA45211AD287F40096839B /* AppDelegate.m */,
-				CEFA45261AD287F40096839B /* HomeViewController.h */,
-				CEFA45271AD287F40096839B /* HomeViewController.m */,
 				CEFA45291AD287F40096839B /* Main.storyboard */,
 				CEFA452C1AD287F40096839B /* Images.xcassets */,
 				CEFA452E1AD287F40096839B /* LaunchScreen.xib */,
