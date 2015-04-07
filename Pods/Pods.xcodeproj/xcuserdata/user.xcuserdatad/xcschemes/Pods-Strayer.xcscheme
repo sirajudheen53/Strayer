@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AFEFE0113641CF950FF18753"
+               BlueprintIdentifier = "DF000F2BD00FF4C82CC38B01"
                BuildableName = "libPods-Strayer.a"
                BlueprintName = "Pods-Strayer"
                ReferencedContainer = "container:Pods.xcodeproj">

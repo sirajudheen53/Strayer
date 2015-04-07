@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-Strayer-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-Strayer-PKRevealController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6DD7B14A344F3EAA89E010A9</key>
+		<key>0CF42A6F2297746606E14F35</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AFEFE0113641CF950FF18753</key>
+		<key>C6039DF94E630E1C998BBA94</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D5399CA1EF8FEFB9B3F30568</key>
+		<key>DF000F2BD00FF4C82CC38B01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E96458FAEB684C8C7D68C70B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
