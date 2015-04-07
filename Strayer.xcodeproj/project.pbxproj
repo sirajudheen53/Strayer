@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		6F98056EB8ECED2EC8E83ACB /* libPods-Strayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 556F8782BF04978E905A9EF1 /* libPods-Strayer.a */; };
+		CEC52D441AD3CB2F003BF968 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D431AD3CB2F003BF968 /* SideMenuViewController.m */; };
+		CEC52D471AD3CB89003BF968 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D461AD3CB89003BF968 /* HomeViewController.m */; };
 		CEFA451F1AD287F40096839B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA451E1AD287F40096839B /* main.m */; };
 		CEFA45221AD287F40096839B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA45211AD287F40096839B /* AppDelegate.m */; };
 		CEFA45251AD287F40096839B /* Strayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFA45231AD287F40096839B /* Strayer.xcdatamodeld */; };
-		CEFA45281AD287F40096839B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA45271AD287F40096839B /* HomeViewController.m */; };
 		CEFA452B1AD287F40096839B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA45291AD287F40096839B /* Main.storyboard */; };
 		CEFA452D1AD287F40096839B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA452C1AD287F40096839B /* Images.xcassets */; };
 		CEFA45301AD287F40096839B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFA452E1AD287F40096839B /* LaunchScreen.xib */; };
@@ -34,14 +35,16 @@
 		556F8782BF04978E905A9EF1 /* libPods-Strayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Strayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADE194BF8BBF9152639C31A /* Pods-Strayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strayer/Pods-Strayer.debug.xcconfig"; sourceTree = "<group>"; };
 		B6432A7EAE0E9C3DC0AFF7D5 /* Pods-Strayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strayer/Pods-Strayer.release.xcconfig"; sourceTree = "<group>"; };
+		CEC52D421AD3CB2F003BF968 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuViewController.h; path = ViewControllers/SideMenuViewController.h; sourceTree = "<group>"; };
+		CEC52D431AD3CB2F003BF968 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuViewController.m; path = ViewControllers/SideMenuViewController.m; sourceTree = "<group>"; };
+		CEC52D451AD3CB89003BF968 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
+		CEC52D461AD3CB89003BF968 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ViewControllers/HomeViewController.m; sourceTree = "<group>"; };
 		CEFA45191AD287F40096839B /* Coach To Grow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coach To Grow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEFA451D1AD287F40096839B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEFA451E1AD287F40096839B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEFA45201AD287F40096839B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEFA45211AD287F40096839B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEFA45241AD287F40096839B /* Strayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Strayer.xcdatamodel; sourceTree = "<group>"; };
-		CEFA45261AD287F40096839B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		CEFA45271AD287F40096839B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		CEFA452A1AD287F40096839B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEFA452C1AD287F40096839B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEFA452F1AD287F40096839B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -94,8 +97,10 @@
 		CEC52D411AD3CAA4003BF968 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CEFA45261AD287F40096839B /* HomeViewController.h */,
-				CEFA45271AD287F40096839B /* HomeViewController.m */,
+				CEC52D451AD3CB89003BF968 /* HomeViewController.h */,
+				CEC52D461AD3CB89003BF968 /* HomeViewController.m */,
+				CEC52D421AD3CB2F003BF968 /* SideMenuViewController.h */,
+				CEC52D431AD3CB2F003BF968 /* SideMenuViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -309,11 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC52D441AD3CB2F003BF968 /* SideMenuViewController.m in Sources */,
 				CEFA454B1AD2ADA30096839B /* MobomoAPIClient.m in Sources */,
 				CEFA45221AD287F40096839B /* AppDelegate.m in Sources */,
 				CEFA454E1AD2ADD00096839B /* MBMNetworkActivity.m in Sources */,
 				CEFA451F1AD287F40096839B /* main.m in Sources */,
-				CEFA45281AD287F40096839B /* HomeViewController.m in Sources */,
+				CEC52D471AD3CB89003BF968 /* HomeViewController.m in Sources */,
 				CEFA45251AD287F40096839B /* Strayer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
