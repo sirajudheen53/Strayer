@@ -11,7 +11,7 @@
 		CEFA451F1AD287F40096839B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA451E1AD287F40096839B /* main.m */; };
 		CEFA45221AD287F40096839B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA45211AD287F40096839B /* AppDelegate.m */; };
 		CEFA45251AD287F40096839B /* Strayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFA45231AD287F40096839B /* Strayer.xcdatamodeld */; };
-		CEFA45281AD287F40096839B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA45271AD287F40096839B /* ViewController.m */; };
+		CEFA45281AD287F40096839B /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA45271AD287F40096839B /* HomeViewController.m */; };
 		CEFA452B1AD287F40096839B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA45291AD287F40096839B /* Main.storyboard */; };
 		CEFA452D1AD287F40096839B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA452C1AD287F40096839B /* Images.xcassets */; };
 		CEFA45301AD287F40096839B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFA452E1AD287F40096839B /* LaunchScreen.xib */; };
@@ -40,8 +40,8 @@
 		CEFA45201AD287F40096839B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEFA45211AD287F40096839B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CEFA45241AD287F40096839B /* Strayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Strayer.xcdatamodel; sourceTree = "<group>"; };
-		CEFA45261AD287F40096839B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CEFA45271AD287F40096839B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CEFA45261AD287F40096839B /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		CEFA45271AD287F40096839B /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		CEFA452A1AD287F40096839B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEFA452C1AD287F40096839B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEFA452F1AD287F40096839B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 				CEFA45451AD2AD420096839B /* Webservice */,
 				CEFA45201AD287F40096839B /* AppDelegate.h */,
 				CEFA45211AD287F40096839B /* AppDelegate.m */,
-				CEFA45261AD287F40096839B /* ViewController.h */,
-				CEFA45271AD287F40096839B /* ViewController.m */,
+				CEFA45261AD287F40096839B /* HomeViewController.h */,
+				CEFA45271AD287F40096839B /* HomeViewController.m */,
 				CEFA45291AD287F40096839B /* Main.storyboard */,
 				CEFA452C1AD287F40096839B /* Images.xcassets */,
 				CEFA452E1AD287F40096839B /* LaunchScreen.xib */,
@@ -305,7 +305,7 @@
 				CEFA45221AD287F40096839B /* AppDelegate.m in Sources */,
 				CEFA454E1AD2ADD00096839B /* MBMNetworkActivity.m in Sources */,
 				CEFA451F1AD287F40096839B /* main.m in Sources */,
-				CEFA45281AD287F40096839B /* ViewController.m in Sources */,
+				CEFA45281AD287F40096839B /* HomeViewController.m in Sources */,
 				CEFA45251AD287F40096839B /* Strayer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
