@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 mobomo. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface SideMenuViewController : NSObject
+@interface SideMenuViewController : UIViewController
 
 @end
