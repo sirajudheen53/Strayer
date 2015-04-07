@@ -7,8 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import <PKRevealController.h>
+#import "UIStoryboard+Main.h"
+#import "SideMenuViewController.h"
+
+#define MAIN_NAVIGATION_VIEW_STORY_BOARD_IDENTIFIER @"mainNavigationView"
 
 @interface AppDelegate ()
+
+@property (nonatomic, strong) PKRevealController *revealController;
+@property (nonatomic, strong) SideMenuViewController *sideMenuView;
+
 
 @end
 
@@ -16,7 +25,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    UIStoryboard *mainStoryboard = [UIStoryboard mainStoryBoard];
+    
+    // courseLibrary = [self.storyboard instantiateViewControllerWithIdentifier:@"CourseLibrary"];
+    _sideMenuView = [mainStoryboard instantiateViewControllerWithIdentifier:SIDE_MENU_STORY_BOARD_IDENTIFIER];
+    
+    UINavigationController *navigationController = [mainStoryboard instantiateViewControllerWithIdentifier:MAIN_NAVIGATION_VIEW_STORY_BOARD_IDENTIFIER];
+    
+    self.revealController = [PKRevealController revealControllerWithFrontViewController:navigationController leftViewController:_sideMenuView];
+    self.revealController.animationDuration = 0.5;
+    
+    self.revealController.modalPresentationStyle = UIModalPresentationFullScreen;
+    [self.window setRootViewController:_revealController];
+
     return YES;
 }
 

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#define SIDE_MENU_STORY_BOARD_IDENTIFIER @"SideMenuView"
+
 @interface SideMenuViewController : UIViewController
 
 @end
