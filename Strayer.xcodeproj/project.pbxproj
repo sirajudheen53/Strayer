@@ -14,6 +14,12 @@
 		CE336C861AD4F5FA0015EC61 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C851AD4F5FA0015EC61 /* Question.m */; };
 		CE336C891AD4F5FA0015EC61 /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C881AD4F5FA0015EC61 /* Answer.m */; };
 		CE336C8C1AD4F61F0015EC61 /* Strayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE336C8A1AD4F61F0015EC61 /* Strayer.xcdatamodeld */; };
+		CE336C961AD4F6FD0015EC61 /* AMPDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C8F1AD4F6FC0015EC61 /* AMPDBManager.m */; };
+		CE336C971AD4F6FD0015EC61 /* Answer+DBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C911AD4F6FD0015EC61 /* Answer+DBOperation.m */; };
+		CE336C981AD4F6FD0015EC61 /* MenuDetails+DBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C931AD4F6FD0015EC61 /* MenuDetails+DBOperation.m */; };
+		CE336C991AD4F6FD0015EC61 /* SingleTest+DBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C951AD4F6FD0015EC61 /* SingleTest+DBOperation.m */; };
+		CE336C9C1AD4F8280015EC61 /* NSManagedObject+EntityName.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C9B1AD4F8280015EC61 /* NSManagedObject+EntityName.m */; };
+		CE336CA01AD4FBE60015EC61 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C9F1AD4FBE60015EC61 /* Utilities.m */; };
 		CEC52D441AD3CB2F003BF968 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D431AD3CB2F003BF968 /* SideMenuViewController.m */; };
 		CEC52D471AD3CB89003BF968 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D461AD3CB89003BF968 /* HomeViewController.m */; };
 		CEC52D4B1AD3D160003BF968 /* UIStoryboard+Main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D4A1AD3D160003BF968 /* UIStoryboard+Main.m */; };
@@ -52,6 +58,18 @@
 		CE336C871AD4F5FA0015EC61 /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Answer.h; path = CoreData/CoreDataModels/Answer.h; sourceTree = "<group>"; };
 		CE336C881AD4F5FA0015EC61 /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Answer.m; path = CoreData/CoreDataModels/Answer.m; sourceTree = "<group>"; };
 		CE336C8B1AD4F61F0015EC61 /* Strayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Strayer.xcdatamodel; sourceTree = "<group>"; };
+		CE336C8E1AD4F6FC0015EC61 /* AMPDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AMPDBManager.h; path = "CoreData/Core Data Utilites/AMPDBManager.h"; sourceTree = "<group>"; };
+		CE336C8F1AD4F6FC0015EC61 /* AMPDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AMPDBManager.m; path = "CoreData/Core Data Utilites/AMPDBManager.m"; sourceTree = "<group>"; };
+		CE336C901AD4F6FD0015EC61 /* Answer+DBOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Answer+DBOperation.h"; path = "CoreData/Core Data Utilites/Answer+DBOperation.h"; sourceTree = "<group>"; };
+		CE336C911AD4F6FD0015EC61 /* Answer+DBOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Answer+DBOperation.m"; path = "CoreData/Core Data Utilites/Answer+DBOperation.m"; sourceTree = "<group>"; };
+		CE336C921AD4F6FD0015EC61 /* MenuDetails+DBOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MenuDetails+DBOperation.h"; path = "CoreData/Core Data Utilites/MenuDetails+DBOperation.h"; sourceTree = "<group>"; };
+		CE336C931AD4F6FD0015EC61 /* MenuDetails+DBOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MenuDetails+DBOperation.m"; path = "CoreData/Core Data Utilites/MenuDetails+DBOperation.m"; sourceTree = "<group>"; };
+		CE336C941AD4F6FD0015EC61 /* SingleTest+DBOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SingleTest+DBOperation.h"; path = "CoreData/Core Data Utilites/SingleTest+DBOperation.h"; sourceTree = "<group>"; };
+		CE336C951AD4F6FD0015EC61 /* SingleTest+DBOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "SingleTest+DBOperation.m"; path = "CoreData/Core Data Utilites/SingleTest+DBOperation.m"; sourceTree = "<group>"; };
+		CE336C9A1AD4F8280015EC61 /* NSManagedObject+EntityName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+EntityName.h"; path = "Categories/NSManagedObject+EntityName.h"; sourceTree = "<group>"; };
+		CE336C9B1AD4F8280015EC61 /* NSManagedObject+EntityName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+EntityName.m"; path = "Categories/NSManagedObject+EntityName.m"; sourceTree = "<group>"; };
+		CE336C9E1AD4FBE60015EC61 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		CE336C9F1AD4FBE60015EC61 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
 		CEC52D421AD3CB2F003BF968 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuViewController.h; path = ViewControllers/SideMenuViewController.h; sourceTree = "<group>"; };
 		CEC52D431AD3CB2F003BF968 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuViewController.m; path = ViewControllers/SideMenuViewController.m; sourceTree = "<group>"; };
 		CEC52D451AD3CB89003BF968 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
@@ -115,6 +133,7 @@
 		CE336C791AD4F5880015EC61 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				CE336C8D1AD4F69F0015EC61 /* Core Data Utitlites */,
 				CE336C8A1AD4F61F0015EC61 /* Strayer.xcdatamodeld */,
 				CE336C7A1AD4F5C30015EC61 /* Core Data Models */,
 			);
@@ -138,6 +157,21 @@
 			name = "Core Data Models";
 			sourceTree = "<group>";
 		};
+		CE336C8D1AD4F69F0015EC61 /* Core Data Utitlites */ = {
+			isa = PBXGroup;
+			children = (
+				CE336C8E1AD4F6FC0015EC61 /* AMPDBManager.h */,
+				CE336C8F1AD4F6FC0015EC61 /* AMPDBManager.m */,
+				CE336C901AD4F6FD0015EC61 /* Answer+DBOperation.h */,
+				CE336C911AD4F6FD0015EC61 /* Answer+DBOperation.m */,
+				CE336C921AD4F6FD0015EC61 /* MenuDetails+DBOperation.h */,
+				CE336C931AD4F6FD0015EC61 /* MenuDetails+DBOperation.m */,
+				CE336C941AD4F6FD0015EC61 /* SingleTest+DBOperation.h */,
+				CE336C951AD4F6FD0015EC61 /* SingleTest+DBOperation.m */,
+			);
+			name = "Core Data Utitlites";
+			sourceTree = "<group>";
+		};
 		CEC52D411AD3CAA4003BF968 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +188,8 @@
 			children = (
 				CEC52D491AD3D160003BF968 /* UIStoryboard+Main.h */,
 				CEC52D4A1AD3D160003BF968 /* UIStoryboard+Main.m */,
+				CE336C9A1AD4F8280015EC61 /* NSManagedObject+EntityName.h */,
+				CE336C9B1AD4F8280015EC61 /* NSManagedObject+EntityName.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -191,6 +227,8 @@
 				CEFA452C1AD287F40096839B /* Images.xcassets */,
 				CEFA452E1AD287F40096839B /* LaunchScreen.xib */,
 				CEFA451C1AD287F40096839B /* Supporting Files */,
+				CE336C9E1AD4FBE60015EC61 /* Utilities.h */,
+				CE336C9F1AD4FBE60015EC61 /* Utilities.m */,
 			);
 			path = Strayer;
 			sourceTree = "<group>";
@@ -369,10 +407,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC52D441AD3CB2F003BF968 /* SideMenuViewController.m in Sources */,
+				CE336C981AD4F6FD0015EC61 /* MenuDetails+DBOperation.m in Sources */,
 				CE336C801AD4F5FA0015EC61 /* SingleTest.m in Sources */,
 				CE336C831AD4F5FA0015EC61 /* AbstractUrl.m in Sources */,
+				CE336CA01AD4FBE60015EC61 /* Utilities.m in Sources */,
 				CEFA454B1AD2ADA30096839B /* MobomoAPIClient.m in Sources */,
 				CE336C7D1AD4F5F90015EC61 /* MenuDetails.m in Sources */,
+				CE336C971AD4F6FD0015EC61 /* Answer+DBOperation.m in Sources */,
+				CE336C9C1AD4F8280015EC61 /* NSManagedObject+EntityName.m in Sources */,
 				CE336C891AD4F5FA0015EC61 /* Answer.m in Sources */,
 				CEFA45221AD287F40096839B /* AppDelegate.m in Sources */,
 				CEFA454E1AD2ADD00096839B /* MBMNetworkActivity.m in Sources */,
@@ -380,6 +422,8 @@
 				CEC52D4B1AD3D160003BF968 /* UIStoryboard+Main.m in Sources */,
 				CE336C861AD4F5FA0015EC61 /* Question.m in Sources */,
 				CEC52D471AD3CB89003BF968 /* HomeViewController.m in Sources */,
+				CE336C991AD4F6FD0015EC61 /* SingleTest+DBOperation.m in Sources */,
+				CE336C961AD4F6FD0015EC61 /* AMPDBManager.m in Sources */,
 				CE336C8C1AD4F61F0015EC61 /* Strayer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
