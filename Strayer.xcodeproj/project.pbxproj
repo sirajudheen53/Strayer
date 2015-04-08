@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		6F98056EB8ECED2EC8E83ACB /* libPods-Strayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 556F8782BF04978E905A9EF1 /* libPods-Strayer.a */; };
+		CE336C7D1AD4F5F90015EC61 /* MenuDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C7C1AD4F5F90015EC61 /* MenuDetails.m */; };
+		CE336C801AD4F5FA0015EC61 /* SingleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C7F1AD4F5FA0015EC61 /* SingleTest.m */; };
+		CE336C831AD4F5FA0015EC61 /* AbstractUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C821AD4F5FA0015EC61 /* AbstractUrl.m */; };
+		CE336C861AD4F5FA0015EC61 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C851AD4F5FA0015EC61 /* Question.m */; };
+		CE336C891AD4F5FA0015EC61 /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C881AD4F5FA0015EC61 /* Answer.m */; };
+		CE336C8C1AD4F61F0015EC61 /* Strayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE336C8A1AD4F61F0015EC61 /* Strayer.xcdatamodeld */; };
 		CEC52D441AD3CB2F003BF968 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D431AD3CB2F003BF968 /* SideMenuViewController.m */; };
 		CEC52D471AD3CB89003BF968 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D461AD3CB89003BF968 /* HomeViewController.m */; };
 		CEC52D4B1AD3D160003BF968 /* UIStoryboard+Main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D4A1AD3D160003BF968 /* UIStoryboard+Main.m */; };
 		CEFA451F1AD287F40096839B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA451E1AD287F40096839B /* main.m */; };
 		CEFA45221AD287F40096839B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFA45211AD287F40096839B /* AppDelegate.m */; };
-		CEFA45251AD287F40096839B /* Strayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CEFA45231AD287F40096839B /* Strayer.xcdatamodeld */; };
 		CEFA452B1AD287F40096839B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFA45291AD287F40096839B /* Main.storyboard */; };
 		CEFA452D1AD287F40096839B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFA452C1AD287F40096839B /* Images.xcassets */; };
 		CEFA45301AD287F40096839B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEFA452E1AD287F40096839B /* LaunchScreen.xib */; };
@@ -36,6 +41,17 @@
 		556F8782BF04978E905A9EF1 /* libPods-Strayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Strayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADE194BF8BBF9152639C31A /* Pods-Strayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strayer/Pods-Strayer.debug.xcconfig"; sourceTree = "<group>"; };
 		B6432A7EAE0E9C3DC0AFF7D5 /* Pods-Strayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strayer/Pods-Strayer.release.xcconfig"; sourceTree = "<group>"; };
+		CE336C7B1AD4F5F90015EC61 /* MenuDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuDetails.h; path = CoreData/CoreDataModels/MenuDetails.h; sourceTree = "<group>"; };
+		CE336C7C1AD4F5F90015EC61 /* MenuDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuDetails.m; path = CoreData/CoreDataModels/MenuDetails.m; sourceTree = "<group>"; };
+		CE336C7E1AD4F5FA0015EC61 /* SingleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleTest.h; path = CoreData/CoreDataModels/SingleTest.h; sourceTree = "<group>"; };
+		CE336C7F1AD4F5FA0015EC61 /* SingleTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SingleTest.m; path = CoreData/CoreDataModels/SingleTest.m; sourceTree = "<group>"; };
+		CE336C811AD4F5FA0015EC61 /* AbstractUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AbstractUrl.h; path = CoreData/CoreDataModels/AbstractUrl.h; sourceTree = "<group>"; };
+		CE336C821AD4F5FA0015EC61 /* AbstractUrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AbstractUrl.m; path = CoreData/CoreDataModels/AbstractUrl.m; sourceTree = "<group>"; };
+		CE336C841AD4F5FA0015EC61 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question.h; path = CoreData/CoreDataModels/Question.h; sourceTree = "<group>"; };
+		CE336C851AD4F5FA0015EC61 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question.m; path = CoreData/CoreDataModels/Question.m; sourceTree = "<group>"; };
+		CE336C871AD4F5FA0015EC61 /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Answer.h; path = CoreData/CoreDataModels/Answer.h; sourceTree = "<group>"; };
+		CE336C881AD4F5FA0015EC61 /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Answer.m; path = CoreData/CoreDataModels/Answer.m; sourceTree = "<group>"; };
+		CE336C8B1AD4F61F0015EC61 /* Strayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Strayer.xcdatamodel; sourceTree = "<group>"; };
 		CEC52D421AD3CB2F003BF968 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SideMenuViewController.h; path = ViewControllers/SideMenuViewController.h; sourceTree = "<group>"; };
 		CEC52D431AD3CB2F003BF968 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SideMenuViewController.m; path = ViewControllers/SideMenuViewController.m; sourceTree = "<group>"; };
 		CEC52D451AD3CB89003BF968 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ViewControllers/HomeViewController.h; sourceTree = "<group>"; };
@@ -47,7 +63,6 @@
 		CEFA451E1AD287F40096839B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CEFA45201AD287F40096839B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CEFA45211AD287F40096839B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEFA45241AD287F40096839B /* Strayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Strayer.xcdatamodel; sourceTree = "<group>"; };
 		CEFA452A1AD287F40096839B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CEFA452C1AD287F40096839B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CEFA452F1AD287F40096839B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -97,6 +112,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CE336C791AD4F5880015EC61 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CE336C8A1AD4F61F0015EC61 /* Strayer.xcdatamodeld */,
+				CE336C7A1AD4F5C30015EC61 /* Core Data Models */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		CE336C7A1AD4F5C30015EC61 /* Core Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE336C871AD4F5FA0015EC61 /* Answer.h */,
+				CE336C881AD4F5FA0015EC61 /* Answer.m */,
+				CE336C841AD4F5FA0015EC61 /* Question.h */,
+				CE336C851AD4F5FA0015EC61 /* Question.m */,
+				CE336C811AD4F5FA0015EC61 /* AbstractUrl.h */,
+				CE336C821AD4F5FA0015EC61 /* AbstractUrl.m */,
+				CE336C7E1AD4F5FA0015EC61 /* SingleTest.h */,
+				CE336C7F1AD4F5FA0015EC61 /* SingleTest.m */,
+				CE336C7B1AD4F5F90015EC61 /* MenuDetails.h */,
+				CE336C7C1AD4F5F90015EC61 /* MenuDetails.m */,
+			);
+			name = "Core Data Models";
+			sourceTree = "<group>";
+		};
 		CEC52D411AD3CAA4003BF968 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +181,7 @@
 		CEFA451B1AD287F40096839B /* Strayer */ = {
 			isa = PBXGroup;
 			children = (
+				CE336C791AD4F5880015EC61 /* CoreData */,
 				CEC52D481AD3D0F8003BF968 /* Categories */,
 				CEC52D411AD3CAA4003BF968 /* ViewControllers */,
 				CEFA45451AD2AD420096839B /* Webservice */,
@@ -148,7 +190,6 @@
 				CEFA45291AD287F40096839B /* Main.storyboard */,
 				CEFA452C1AD287F40096839B /* Images.xcassets */,
 				CEFA452E1AD287F40096839B /* LaunchScreen.xib */,
-				CEFA45231AD287F40096839B /* Strayer.xcdatamodeld */,
 				CEFA451C1AD287F40096839B /* Supporting Files */,
 			);
 			path = Strayer;
@@ -328,13 +369,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC52D441AD3CB2F003BF968 /* SideMenuViewController.m in Sources */,
+				CE336C801AD4F5FA0015EC61 /* SingleTest.m in Sources */,
+				CE336C831AD4F5FA0015EC61 /* AbstractUrl.m in Sources */,
 				CEFA454B1AD2ADA30096839B /* MobomoAPIClient.m in Sources */,
+				CE336C7D1AD4F5F90015EC61 /* MenuDetails.m in Sources */,
+				CE336C891AD4F5FA0015EC61 /* Answer.m in Sources */,
 				CEFA45221AD287F40096839B /* AppDelegate.m in Sources */,
 				CEFA454E1AD2ADD00096839B /* MBMNetworkActivity.m in Sources */,
 				CEFA451F1AD287F40096839B /* main.m in Sources */,
 				CEC52D4B1AD3D160003BF968 /* UIStoryboard+Main.m in Sources */,
+				CE336C861AD4F5FA0015EC61 /* Question.m in Sources */,
 				CEC52D471AD3CB89003BF968 /* HomeViewController.m in Sources */,
-				CEFA45251AD287F40096839B /* Strayer.xcdatamodeld in Sources */,
+				CE336C8C1AD4F61F0015EC61 /* Strayer.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,13 +589,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CEFA45231AD287F40096839B /* Strayer.xcdatamodeld */ = {
+		CE336C8A1AD4F61F0015EC61 /* Strayer.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				CEFA45241AD287F40096839B /* Strayer.xcdatamodel */,
+				CE336C8B1AD4F61F0015EC61 /* Strayer.xcdatamodel */,
 			);
-			currentVersion = CEFA45241AD287F40096839B /* Strayer.xcdatamodel */;
-			path = Strayer.xcdatamodeld;
+			currentVersion = CE336C8B1AD4F61F0015EC61 /* Strayer.xcdatamodel */;
+			name = Strayer.xcdatamodeld;
+			path = CoreData/Strayer.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
