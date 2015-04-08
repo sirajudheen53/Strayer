@@ -29,7 +29,7 @@
     UIStoryboard *mainStoryboard = [UIStoryboard mainStoryBoard];
     
     // courseLibrary = [self.storyboard instantiateViewControllerWithIdentifier:@"CourseLibrary"];
-    _sideMenuView = [mainStoryboard instantiateViewControllerWithIdentifier:SIDE_MENU_STORY_BOARD_IDENTIFIER];
+    _sideMenuView = [mainStoryboard instantiateViewControllerWithIdentifier:SIDE_MENU__NAVIGATION_VIEW_STORY_BOARD_IDENTIFIER];
     
     UINavigationController *navigationController = [mainStoryboard instantiateViewControllerWithIdentifier:MAIN_NAVIGATION_VIEW_STORY_BOARD_IDENTIFIER];
     
