@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CTGViewController.h"
 
-@interface CTGHomeViewController : UIViewController
+@interface CTGHomeViewController : CTGViewController
 
 
 @end
