@@ -10,6 +10,7 @@
 #import <PKRevealController.h>
 #import "UIStoryboard+Main.h"
 #import "CTGSideMenuViewController.h"
+#import "ImageNameConstants.h"
 
 #define MAIN_NAVIGATION_VIEW_STORY_BOARD_IDENTIFIER @"mainNavigationView"
 
@@ -26,6 +27,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    [self setCommonAppearanceSettings];
+    
     UIStoryboard *mainStoryboard = [UIStoryboard mainStoryBoard];
     
     // courseLibrary = [self.storyboard instantiateViewControllerWithIdentifier:@"CourseLibrary"];
@@ -64,6 +67,16 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
 #warning Methods should implement for saving core data context
+}
+
+#pragma mark - Private Methods
+
+- (void)setCommonAppearanceSettings {
+    [UIApplication sharedApplication].statusBarHidden = NO;
+    
+    [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleDefault];
+    
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:NAVIGATION_BAR_BACKGROUND_IMAGE] forBarMetrics:UIBarMetricsDefault];
 }
 
 #pragma mark - Public Methods
