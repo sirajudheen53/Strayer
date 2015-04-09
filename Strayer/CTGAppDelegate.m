@@ -74,7 +74,7 @@
 - (void)setCommonAppearanceSettings {
     [UIApplication sharedApplication].statusBarHidden = NO;
     
-    [[UIApplication sharedApplication] setStatusBarStyle: UIStatusBarStyleDefault];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
     [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:NAVIGATION_BAR_BACKGROUND_IMAGE] forBarMetrics:UIBarMetricsDefault];
 }
