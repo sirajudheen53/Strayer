@@ -7,7 +7,7 @@
 //
 
 #import "MBMNetworkActivity.h"
-#import "AppDelegate.h"
+#import "CTGAppDelegate.h"
 
 static int networkActivityCount = 0;
 static NSTimer *hideNetworkActivityTimer = nil;

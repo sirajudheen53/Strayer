@@ -9,7 +9,7 @@
 #import "MobomoAPIClient.h"
 #import "Constants.h"
 #import "MBProgressHUD.h"
-#import "AppDelegate.h"
+#import "CTGAppDelegate.h"
 
 @implementation MobomoAPIClient
 
@@ -74,11 +74,11 @@
         else{
             successBlock(responseObject);
         }
-        [MBProgressHUD hideAllHUDsForView:[AppDelegate application].window animated:YES];
+        [MBProgressHUD hideAllHUDsForView:[CTGAppDelegate application].window animated:YES];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         // failure! :(
         [MBMNetworkActivity popNetworkActivity];
-        [MBProgressHUD hideAllHUDsForView:[AppDelegate application].window animated:YES];
+        [MBProgressHUD hideAllHUDsForView:[CTGAppDelegate application].window animated:YES];
         failureBlock(error);
     }];
 }
