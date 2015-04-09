@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  CTGAppDelegate.h
 //  Strayer
 //
 //  Created by user on 06/04/15.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface CTGAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-+ (AppDelegate *)application;
++ (CTGAppDelegate *)application;
 
 @end
 

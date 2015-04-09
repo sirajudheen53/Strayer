@@ -6,22 +6,22 @@
 //  Copyright (c) 2015 mobomo. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "CTGAppDelegate.h"
 #import <PKRevealController.h>
 #import "UIStoryboard+Main.h"
-#import "SideMenuViewController.h"
+#import "CTGSideMenuViewController.h"
 
 #define MAIN_NAVIGATION_VIEW_STORY_BOARD_IDENTIFIER @"mainNavigationView"
 
-@interface AppDelegate ()
+@interface CTGAppDelegate ()
 
 @property (nonatomic, strong) PKRevealController *revealController;
-@property (nonatomic, strong) SideMenuViewController *sideMenuView;
+@property (nonatomic, strong) CTGSideMenuViewController *sideMenuView;
 
 
 @end
 
-@implementation AppDelegate
+@implementation CTGAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -65,5 +65,13 @@
     // Saves changes in the application's managed object context before the application terminates.
 #warning Methods should implement for saving core data context
 }
+
+#pragma mark - Public Methods
+
++ (CTGAppDelegate *)application
+{
+    return (CTGAppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
 
 @end

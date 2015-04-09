@@ -1,13 +1,13 @@
 //
-//  SideMenuViewController.m
+//  CTGSideMenuViewController.m
 //  Strayer
 //
 //  Created by user on 07/04/15.
 //  Copyright (c) 2015 mobomo. All rights reserved.
 //
 
-#import "SideMenuViewController.h"
+#import "CTGSideMenuViewController.h"
 
-@implementation SideMenuViewController
+@implementation CTGSideMenuViewController
 
 @end

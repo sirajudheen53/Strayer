@@ -1,5 +1,5 @@
 //
-//  SideMenuViewController.h
+//  SCTGideMenuViewController.h
 //  Strayer
 //
 //  Created by user on 07/04/15.
@@ -10,6 +10,6 @@
 
 #define SIDE_MENU__NAVIGATION_VIEW_STORY_BOARD_IDENTIFIER @"sideMenuNavigationView"
 
-@interface SideMenuViewController : UIViewController
+@interface CTGSideMenuViewController : UIViewController
 
 @end

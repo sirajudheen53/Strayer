@@ -1,18 +1,18 @@
 //
-//  HomeViewController.m
+//  CTGHomeViewController.m
 //  Strayer
 //
 //  Created by user on 06/04/15.
 //  Copyright (c) 2015 mobomo. All rights reserved.
 //
 
-#import "HomeViewController.h"
+#import "CTGHomeViewController.h"
 
-@interface HomeViewController ()
+@interface CTGHomeViewController ()
 
 @end
 
-@implementation HomeViewController
+@implementation CTGHomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

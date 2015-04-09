@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  CTGHomeViewController.h
 //  Strayer
 //
 //  Created by user on 06/04/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HomeViewController : UIViewController
+@interface CTGHomeViewController : UIViewController
 
 
 @end
