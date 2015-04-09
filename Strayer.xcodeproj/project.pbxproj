@@ -20,6 +20,7 @@
 		CE336C991AD4F6FD0015EC61 /* SingleTest+DBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C951AD4F6FD0015EC61 /* SingleTest+DBOperation.m */; };
 		CE336C9C1AD4F8280015EC61 /* NSManagedObject+EntityName.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C9B1AD4F8280015EC61 /* NSManagedObject+EntityName.m */; };
 		CE336CA01AD4FBE60015EC61 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C9F1AD4FBE60015EC61 /* Utilities.m */; };
+		CEC1AD961AD6337400BD33D7 /* CTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1AD951AD6337400BD33D7 /* CTGViewController.m */; };
 		CEC52D441AD3CB2F003BF968 /* CTGSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D431AD3CB2F003BF968 /* CTGSideMenuViewController.m */; };
 		CEC52D471AD3CB89003BF968 /* CTGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D461AD3CB89003BF968 /* CTGHomeViewController.m */; };
 		CEC52D4B1AD3D160003BF968 /* UIStoryboard+Main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D4A1AD3D160003BF968 /* UIStoryboard+Main.m */; };
@@ -70,6 +71,9 @@
 		CE336C9B1AD4F8280015EC61 /* NSManagedObject+EntityName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+EntityName.m"; path = "Categories/NSManagedObject+EntityName.m"; sourceTree = "<group>"; };
 		CE336C9E1AD4FBE60015EC61 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		CE336C9F1AD4FBE60015EC61 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		CEC1AD941AD6337400BD33D7 /* CTGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTGViewController.h; path = ViewControllers/CTGViewController.h; sourceTree = "<group>"; };
+		CEC1AD951AD6337400BD33D7 /* CTGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTGViewController.m; path = ViewControllers/CTGViewController.m; sourceTree = "<group>"; };
+		CEC1AD971AD6343800BD33D7 /* ImageNameConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageNameConstants.h; sourceTree = "<group>"; };
 		CEC52D421AD3CB2F003BF968 /* CTGSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTGSideMenuViewController.h; path = ViewControllers/CTGSideMenuViewController.h; sourceTree = "<group>"; };
 		CEC52D431AD3CB2F003BF968 /* CTGSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTGSideMenuViewController.m; path = ViewControllers/CTGSideMenuViewController.m; sourceTree = "<group>"; };
 		CEC52D451AD3CB89003BF968 /* CTGHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTGHomeViewController.h; path = ViewControllers/CTGHomeViewController.h; sourceTree = "<group>"; };
@@ -179,6 +183,8 @@
 				CEC52D461AD3CB89003BF968 /* CTGHomeViewController.m */,
 				CEC52D421AD3CB2F003BF968 /* CTGSideMenuViewController.h */,
 				CEC52D431AD3CB2F003BF968 /* CTGSideMenuViewController.m */,
+				CEC1AD941AD6337400BD33D7 /* CTGViewController.h */,
+				CEC1AD951AD6337400BD33D7 /* CTGViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -239,6 +245,7 @@
 				CEFA451D1AD287F40096839B /* Info.plist */,
 				CEFA451E1AD287F40096839B /* main.m */,
 				CEFA454F1AD2AE210096839B /* Constants.h */,
+				CEC1AD971AD6343800BD33D7 /* ImageNameConstants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -413,6 +420,7 @@
 				CE336CA01AD4FBE60015EC61 /* Utilities.m in Sources */,
 				CEFA454B1AD2ADA30096839B /* MobomoAPIClient.m in Sources */,
 				CE336C7D1AD4F5F90015EC61 /* MenuDetails.m in Sources */,
+				CEC1AD961AD6337400BD33D7 /* CTGViewController.m in Sources */,
 				CE336C971AD4F6FD0015EC61 /* Answer+DBOperation.m in Sources */,
 				CE336C9C1AD4F8280015EC61 /* NSManagedObject+EntityName.m in Sources */,
 				CE336C891AD4F5FA0015EC61 /* Answer.m in Sources */,
