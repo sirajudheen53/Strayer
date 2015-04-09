@@ -58,6 +58,9 @@
     [button setImage:buttonImage forState:UIControlStateNormal];
     button.frame = CGRectMake(0, 0, buttonImage.size.width, buttonImage.size.height);
     [button addTarget:self action:@selector(revealLeftHandMenu) forControlEvents:UIControlEventTouchUpInside];
+
+    UIBarButtonItem *customBarItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    self.navigationItem.leftBarButtonItem = customBarItem;
 }
 
 - (void)revealLeftHandMenu {
