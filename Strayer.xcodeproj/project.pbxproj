@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6F98056EB8ECED2EC8E83ACB /* libPods-Strayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 556F8782BF04978E905A9EF1 /* libPods-Strayer.a */; };
+		CE0CFEA31AD69F4600C1B7DD /* UITextField+Padding.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0CFEA21AD69F4600C1B7DD /* UITextField+Padding.m */; };
+		CE24D7131AD682D000B0C02F /* CTGLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE24D7121AD682D000B0C02F /* CTGLoginViewController.m */; };
+		CE24D71A1AD6867A00B0C02F /* UnderLinedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE24D7191AD6867A00B0C02F /* UnderLinedButton.m */; };
 		CE336C7D1AD4F5F90015EC61 /* MenuDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C7C1AD4F5F90015EC61 /* MenuDetails.m */; };
 		CE336C801AD4F5FA0015EC61 /* SingleTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C7F1AD4F5FA0015EC61 /* SingleTest.m */; };
 		CE336C831AD4F5FA0015EC61 /* AbstractUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C821AD4F5FA0015EC61 /* AbstractUrl.m */; };
@@ -20,6 +23,7 @@
 		CE336C991AD4F6FD0015EC61 /* SingleTest+DBOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C951AD4F6FD0015EC61 /* SingleTest+DBOperation.m */; };
 		CE336C9C1AD4F8280015EC61 /* NSManagedObject+EntityName.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C9B1AD4F8280015EC61 /* NSManagedObject+EntityName.m */; };
 		CE336CA01AD4FBE60015EC61 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CE336C9F1AD4FBE60015EC61 /* Utilities.m */; };
+		CEB672FC1AD7840700953416 /* CTGAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB672FB1AD7840700953416 /* CTGAPIClient.m */; };
 		CEC1AD961AD6337400BD33D7 /* CTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1AD951AD6337400BD33D7 /* CTGViewController.m */; };
 		CEC52D441AD3CB2F003BF968 /* CTGSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D431AD3CB2F003BF968 /* CTGSideMenuViewController.m */; };
 		CEC52D471AD3CB89003BF968 /* CTGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D461AD3CB89003BF968 /* CTGHomeViewController.m */; };
@@ -48,6 +52,13 @@
 		556F8782BF04978E905A9EF1 /* libPods-Strayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Strayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADE194BF8BBF9152639C31A /* Pods-Strayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Strayer/Pods-Strayer.debug.xcconfig"; sourceTree = "<group>"; };
 		B6432A7EAE0E9C3DC0AFF7D5 /* Pods-Strayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Strayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Strayer/Pods-Strayer.release.xcconfig"; sourceTree = "<group>"; };
+		CE0CFEA01AD69C9B00C1B7DD /* ColorConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorConstants.h; sourceTree = "<group>"; };
+		CE0CFEA11AD69F4600C1B7DD /* UITextField+Padding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITextField+Padding.h"; path = "Categories/UITextField+Padding.h"; sourceTree = "<group>"; };
+		CE0CFEA21AD69F4600C1B7DD /* UITextField+Padding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITextField+Padding.m"; path = "Categories/UITextField+Padding.m"; sourceTree = "<group>"; };
+		CE24D7111AD682D000B0C02F /* CTGLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTGLoginViewController.h; path = ViewControllers/CTGLoginViewController.h; sourceTree = "<group>"; };
+		CE24D7121AD682D000B0C02F /* CTGLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTGLoginViewController.m; path = ViewControllers/CTGLoginViewController.m; sourceTree = "<group>"; };
+		CE24D7181AD6867A00B0C02F /* UnderLinedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnderLinedButton.h; path = Views/UnderLinedButton.h; sourceTree = "<group>"; };
+		CE24D7191AD6867A00B0C02F /* UnderLinedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnderLinedButton.m; path = Views/UnderLinedButton.m; sourceTree = "<group>"; };
 		CE336C7B1AD4F5F90015EC61 /* MenuDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuDetails.h; path = CoreData/CoreDataModels/MenuDetails.h; sourceTree = "<group>"; };
 		CE336C7C1AD4F5F90015EC61 /* MenuDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuDetails.m; path = CoreData/CoreDataModels/MenuDetails.m; sourceTree = "<group>"; };
 		CE336C7E1AD4F5FA0015EC61 /* SingleTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SingleTest.h; path = CoreData/CoreDataModels/SingleTest.h; sourceTree = "<group>"; };
@@ -71,6 +82,9 @@
 		CE336C9B1AD4F8280015EC61 /* NSManagedObject+EntityName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+EntityName.m"; path = "Categories/NSManagedObject+EntityName.m"; sourceTree = "<group>"; };
 		CE336C9E1AD4FBE60015EC61 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
 		CE336C9F1AD4FBE60015EC61 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		CEB672F91AD782D100953416 /* WebserviceConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebserviceConstants.h; sourceTree = "<group>"; };
+		CEB672FA1AD7840700953416 /* CTGAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTGAPIClient.h; path = Webservice/CTGAPIClient.h; sourceTree = "<group>"; };
+		CEB672FB1AD7840700953416 /* CTGAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTGAPIClient.m; path = Webservice/CTGAPIClient.m; sourceTree = "<group>"; };
 		CEC1AD941AD6337400BD33D7 /* CTGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTGViewController.h; path = ViewControllers/CTGViewController.h; sourceTree = "<group>"; };
 		CEC1AD951AD6337400BD33D7 /* CTGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTGViewController.m; path = ViewControllers/CTGViewController.m; sourceTree = "<group>"; };
 		CEC1AD971AD6343800BD33D7 /* ImageNameConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageNameConstants.h; sourceTree = "<group>"; };
@@ -134,6 +148,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CE24D7141AD6842F00B0C02F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CE24D7181AD6867A00B0C02F /* UnderLinedButton.h */,
+				CE24D7191AD6867A00B0C02F /* UnderLinedButton.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		CE336C791AD4F5880015EC61 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +206,8 @@
 				CEC52D461AD3CB89003BF968 /* CTGHomeViewController.m */,
 				CEC52D421AD3CB2F003BF968 /* CTGSideMenuViewController.h */,
 				CEC52D431AD3CB2F003BF968 /* CTGSideMenuViewController.m */,
+				CE24D7111AD682D000B0C02F /* CTGLoginViewController.h */,
+				CE24D7121AD682D000B0C02F /* CTGLoginViewController.m */,
 				CEC1AD941AD6337400BD33D7 /* CTGViewController.h */,
 				CEC1AD951AD6337400BD33D7 /* CTGViewController.m */,
 			);
@@ -196,6 +221,8 @@
 				CEC52D4A1AD3D160003BF968 /* UIStoryboard+Main.m */,
 				CE336C9A1AD4F8280015EC61 /* NSManagedObject+EntityName.h */,
 				CE336C9B1AD4F8280015EC61 /* NSManagedObject+EntityName.m */,
+				CE0CFEA11AD69F4600C1B7DD /* UITextField+Padding.h */,
+				CE0CFEA21AD69F4600C1B7DD /* UITextField+Padding.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -223,6 +250,7 @@
 		CEFA451B1AD287F40096839B /* Strayer */ = {
 			isa = PBXGroup;
 			children = (
+				CE24D7141AD6842F00B0C02F /* Views */,
 				CE336C791AD4F5880015EC61 /* CoreData */,
 				CEC52D481AD3D0F8003BF968 /* Categories */,
 				CEC52D411AD3CAA4003BF968 /* ViewControllers */,
@@ -246,6 +274,8 @@
 				CEFA451E1AD287F40096839B /* main.m */,
 				CEFA454F1AD2AE210096839B /* Constants.h */,
 				CEC1AD971AD6343800BD33D7 /* ImageNameConstants.h */,
+				CE0CFEA01AD69C9B00C1B7DD /* ColorConstants.h */,
+				CEB672F91AD782D100953416 /* WebserviceConstants.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -270,6 +300,8 @@
 		CEFA45451AD2AD420096839B /* Webservice */ = {
 			isa = PBXGroup;
 			children = (
+				CEB672FA1AD7840700953416 /* CTGAPIClient.h */,
+				CEB672FB1AD7840700953416 /* CTGAPIClient.m */,
 				CEFA45491AD2ADA30096839B /* MobomoAPIClient.h */,
 				CEFA454A1AD2ADA30096839B /* MobomoAPIClient.m */,
 				CEFA454C1AD2ADD00096839B /* MBMNetworkActivity.h */,
@@ -415,9 +447,12 @@
 			files = (
 				CEC52D441AD3CB2F003BF968 /* CTGSideMenuViewController.m in Sources */,
 				CE336C981AD4F6FD0015EC61 /* MenuDetails+DBOperation.m in Sources */,
+				CE0CFEA31AD69F4600C1B7DD /* UITextField+Padding.m in Sources */,
 				CE336C801AD4F5FA0015EC61 /* SingleTest.m in Sources */,
+				CE24D71A1AD6867A00B0C02F /* UnderLinedButton.m in Sources */,
 				CE336C831AD4F5FA0015EC61 /* AbstractUrl.m in Sources */,
 				CE336CA01AD4FBE60015EC61 /* Utilities.m in Sources */,
+				CEB672FC1AD7840700953416 /* CTGAPIClient.m in Sources */,
 				CEFA454B1AD2ADA30096839B /* MobomoAPIClient.m in Sources */,
 				CE336C7D1AD4F5F90015EC61 /* MenuDetails.m in Sources */,
 				CEC1AD961AD6337400BD33D7 /* CTGViewController.m in Sources */,
@@ -433,6 +468,7 @@
 				CE336C991AD4F6FD0015EC61 /* SingleTest+DBOperation.m in Sources */,
 				CE336C961AD4F6FD0015EC61 /* AMPDBManager.m in Sources */,
 				CE336C8C1AD4F61F0015EC61 /* Strayer.xcdatamodeld in Sources */,
+				CE24D7131AD682D000B0C02F /* CTGLoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
