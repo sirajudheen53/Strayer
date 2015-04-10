@@ -9,6 +9,11 @@
 #import "CTGLoginViewController.h"
 #import "UITextField+Padding.h"
 #import "ColorConstants.h"
+#import "CTGAppDelegate.h"
+#import "CTGAPIClient.h"
+#import "MBProgressHUD.h"
+#import "Constants.h"
+#import "CTGUserNotificationSettings.h"
 
 #define USER_NAME_PLACEHOLDER @"Username"
 #define PASSWORK_PLACEHOLDER @"Password"
@@ -47,6 +52,16 @@
     [self.passwordInputTextField addDefaultPadding];
 }
 
+- (void)getNotificationSettings {
+    [CTGAPIClient getNotificationSettingsWithSuccess:^(id response) {
+        NSDictionary *notifiDic = response[@"_api"][@"userNotificaitonSettings"];
+        CTGUserNotificationSettings *userNotificationSettings = [CTGUserNotificationSettings userSettingsWithWebserviceResponse:notifiDic];
+        [userNotificationSettings saveToStandardUserDefaults];
+    } failure:^(id error) {
+        
+    }];
+}
+
 /*
 #pragma mark - Navigation
 
@@ -58,6 +73,26 @@
 */
 
 - (IBAction)signInButtonClicked:(id)sender {
+    if (self.userNameInutTextField.text.length > 0 && self.passwordInputTextField.text.length > 0)
+    {
+        [MBProgressHUD showHUDAddedTo:[CTGAppDelegate application].window animated:YES];
+        [CTGAPIClient loginWithUserName:self.userNameInutTextField.text password:self.passwordInputTextField.text success:^(id response) {
+ 
+            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+            [defaults setObject:[response valueForKey:kAuthToken] forKey:kAuthToken];
+            [defaults setObject:@1 forKey:kUserLoggedIn];
+            [defaults synchronize];
+            [self getNotificationSettings];
+            [self.navigationController popToRootViewControllerAnimated:YES];
+        } failure:^(id error) {
+            UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Please try again" message:@"User name or password is missmatching" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            [alertView show];
+        }];
+    }
+    else{
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Missing" message:@"Username or password is missing" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alertView show];
+    }
 }
 
 - (IBAction)passwordQuestionButtonClicked:(id)sender {
