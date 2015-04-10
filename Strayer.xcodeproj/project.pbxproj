@@ -26,6 +26,7 @@
 		CEB672FC1AD7840700953416 /* CTGAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB672FB1AD7840700953416 /* CTGAPIClient.m */; };
 		CEB673001AD79ACA00953416 /* CTGUserNotificationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB672FF1AD79ACA00953416 /* CTGUserNotificationSettings.m */; };
 		CEB673031AD79ECD00953416 /* NSDate+StringConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB673021AD79ECD00953416 /* NSDate+StringConversion.m */; };
+		CEB673071AD7D54300953416 /* UIAlertView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB673061AD7D54300953416 /* UIAlertView+Common.m */; };
 		CEC1AD961AD6337400BD33D7 /* CTGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1AD951AD6337400BD33D7 /* CTGViewController.m */; };
 		CEC52D441AD3CB2F003BF968 /* CTGSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D431AD3CB2F003BF968 /* CTGSideMenuViewController.m */; };
 		CEC52D471AD3CB89003BF968 /* CTGHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC52D461AD3CB89003BF968 /* CTGHomeViewController.m */; };
@@ -92,6 +93,8 @@
 		CEB673011AD79ECD00953416 /* NSDate+StringConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+StringConversion.h"; path = "Categories/NSDate+StringConversion.h"; sourceTree = "<group>"; };
 		CEB673021AD79ECD00953416 /* NSDate+StringConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+StringConversion.m"; path = "Categories/NSDate+StringConversion.m"; sourceTree = "<group>"; };
 		CEB673041AD7A41C00953416 /* UserDefaultConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaultConstants.h; sourceTree = "<group>"; };
+		CEB673051AD7D54300953416 /* UIAlertView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+Common.h"; path = "Categories/UIAlertView+Common.h"; sourceTree = "<group>"; };
+		CEB673061AD7D54300953416 /* UIAlertView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+Common.m"; path = "Categories/UIAlertView+Common.m"; sourceTree = "<group>"; };
 		CEC1AD941AD6337400BD33D7 /* CTGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CTGViewController.h; path = ViewControllers/CTGViewController.h; sourceTree = "<group>"; };
 		CEC1AD951AD6337400BD33D7 /* CTGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CTGViewController.m; path = ViewControllers/CTGViewController.m; sourceTree = "<group>"; };
 		CEC1AD971AD6343800BD33D7 /* ImageNameConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageNameConstants.h; sourceTree = "<group>"; };
@@ -241,6 +244,8 @@
 				CE0CFEA21AD69F4600C1B7DD /* UITextField+Padding.m */,
 				CEB673011AD79ECD00953416 /* NSDate+StringConversion.h */,
 				CEB673021AD79ECD00953416 /* NSDate+StringConversion.m */,
+				CEB673051AD7D54300953416 /* UIAlertView+Common.h */,
+				CEB673061AD7D54300953416 /* UIAlertView+Common.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -468,6 +473,7 @@
 				CEC52D441AD3CB2F003BF968 /* CTGSideMenuViewController.m in Sources */,
 				CE336C981AD4F6FD0015EC61 /* MenuDetails+DBOperation.m in Sources */,
 				CE0CFEA31AD69F4600C1B7DD /* UITextField+Padding.m in Sources */,
+				CEB673071AD7D54300953416 /* UIAlertView+Common.m in Sources */,
 				CE336C801AD4F5FA0015EC61 /* SingleTest.m in Sources */,
 				CE24D71A1AD6867A00B0C02F /* UnderLinedButton.m in Sources */,
 				CE336C831AD4F5FA0015EC61 /* AbstractUrl.m in Sources */,
