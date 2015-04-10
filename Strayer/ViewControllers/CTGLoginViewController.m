@@ -14,9 +14,15 @@
 #import "MBProgressHUD.h"
 #import "Constants.h"
 #import "CTGUserNotificationSettings.h"
+#import "UIAlertView+Common.h"
+#import "WebserviceConstants.h"
 
 #define USER_NAME_PLACEHOLDER @"Username"
 #define PASSWORK_PLACEHOLDER @"Password"
+#define LOGIN_ERROR @"Login Error"
+#define MISSING @"Missing"
+#define LOGIN @"login"
+#define USERNAME_PASSWORD_MISSING_MESSAGE @"Username or password is missing"
 
 @interface CTGLoginViewController ()
 
@@ -54,11 +60,15 @@
 
 - (void)getNotificationSettings {
     [CTGAPIClient getNotificationSettingsWithSuccess:^(id response) {
-        NSDictionary *notifiDic = response[@"_api"][@"userNotificaitonSettings"];
-        CTGUserNotificationSettings *userNotificationSettings = [CTGUserNotificationSettings userSettingsWithWebserviceResponse:notifiDic];
-        [userNotificationSettings saveToStandardUserDefaults];
+        if ([response[RESPONSE_CODE] integerValue] == WEBSERVICE_SUCCESS_CODE) {
+            NSDictionary *notifiDic = response[@"_api"][@"userNotificaitonSettings"];
+            CTGUserNotificationSettings *userNotificationSettings = [CTGUserNotificationSettings userSettingsWithWebserviceResponse:notifiDic];
+            [userNotificationSettings saveToStandardUserDefaults];
+        } else {
+            
+        }
     } failure:^(id error) {
-        
+        [UIAlertView showAlertViewWithTitle:SORRY andMessage:WEBSERVICE_ERROR_MESSAGE];
     }];
 }
 
@@ -77,21 +87,22 @@
     {
         [MBProgressHUD showHUDAddedTo:[CTGAppDelegate application].window animated:YES];
         [CTGAPIClient loginWithUserName:self.userNameInutTextField.text password:self.passwordInputTextField.text success:^(id response) {
- 
-            NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-            [defaults setObject:[response valueForKey:kAuthToken] forKey:kAuthToken];
-            [defaults setObject:@1 forKey:kUserLoggedIn];
-            [defaults synchronize];
-            [self getNotificationSettings];
-            [self.navigationController popToRootViewControllerAnimated:YES];
+            if ([response[RESPONSE_CODE] integerValue] == WEBSERVICE_SUCCESS_CODE) {
+                NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+                [defaults setObject:[response valueForKey:kAuthToken] forKey:kAuthToken];
+                [defaults setObject:@1 forKey:kUserLoggedIn];
+                [defaults synchronize];
+                [self getNotificationSettings];
+                [self.navigationController popToRootViewControllerAnimated:YES];
+            } else {
+                [UIAlertView showAlertViewWithTitle:LOGIN_ERROR andMessage:response[SERVICE_ERROR_KEY][LOGIN]];
+            }
         } failure:^(id error) {
-            UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Please try again" message:@"User name or password is missmatching" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-            [alertView show];
+            [UIAlertView showAlertViewWithTitle:SORRY andMessage:WEBSERVICE_ERROR_MESSAGE];
         }];
     }
     else{
-        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Missing" message:@"Username or password is missing" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alertView show];
+        [UIAlertView showAlertViewWithTitle:MISSING andMessage:USERNAME_PASSWORD_MISSING_MESSAGE];
     }
 }
 

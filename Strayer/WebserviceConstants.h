@@ -13,6 +13,13 @@
 #define API_TYPE @"moc"
 #define API_AUTH_TOKEN [[NSUserDefaults standardUserDefaults] objectForKey:kAuthToken]
 #define COURSE_ID @59
+#define WEBSERVICE_SUCCESS_CODE 200
+#define SERVICE_ERROR_KEY @"_error"
+#define WEBSERVICE_ERROR_MESSAGE @"Coach to Me service is down. Please contact administrator."
+#define SORRY @"Sorry"
+//Response Keys
+
+#define RESPONSE_CODE @"_responseCode"
 
 //Webservice methods
 
