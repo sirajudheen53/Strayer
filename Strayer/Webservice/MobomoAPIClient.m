@@ -7,7 +7,7 @@
 //
 
 #import "MobomoAPIClient.h"
-#import "Constants.h"
+#import "WebserviceConstants.h"
 #import "MBProgressHUD.h"
 #import "CTGAppDelegate.h"
 
