@@ -67,13 +67,7 @@
     [self POST:[self apiURLWithMethod:method] parameters:params success:^(AFHTTPRequestOperation *operation, id responseObject) {
         // success! :)
         [MBMNetworkActivity popNetworkActivity];
-        NSDictionary *dictionary = responseObject;
-        if (![[dictionary valueForKey:@"_responseCode"] isEqualToNumber:@200]) {
-            failureBlock(responseObject);
-        }
-        else{
-            successBlock(responseObject);
-        }
+        successBlock(responseObject);
         [MBProgressHUD hideAllHUDsForView:[CTGAppDelegate application].window animated:YES];
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         // failure! :(
